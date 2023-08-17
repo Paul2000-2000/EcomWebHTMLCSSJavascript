@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-first ,.nav-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 17%;
+}
+
+.nav-first{
+    font-size: 12px;
+}
+
+.nav-left-l, .nav-right-r{
+    cursor: pointer;
+}
+
+.money-select , .language-select{
+    border: none;
+}
+
+.df{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-second{
+    font-size: 15px;
+}
+
+.nav-second-img{
+    width: 75px;
+    object-fit: contain;
+}
+
+.dfsn{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.new{
+    text-align: center;
+    background-color: red;
+    font: 10px;
+    color: white;
+    position: relative;
+    bottom:25px;
+    left: 40px;
+}
+
+.sports{
+    position: relative;
+    top: 8px;
+}
+
+.nav-third{
+    margin-top: 10px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17%;
+    height: 90px;
+}
+
+.nav-third-left{
+    position: relative;
+    top: 27px;
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 70%;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#nav-third-left-pdep{
+    font-size: 15px;
+}
+
+#nav-third-left-ptot{
+    margin-top: 5px;
+    font-size: 12px;
+}
