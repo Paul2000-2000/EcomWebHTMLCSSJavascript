@@ -33,14 +33,13 @@
 
         <nav class="nav-second">
             <div class="nav-second-left dfsn">
-                <img src="assets/other/store.png " class="nav-second-img">
+                <div class="nav-second-left-l">
+                    <div class="nav-second-left-l circle"></div>
+                    <img src="assets/other/store.png " class="nav-second-img">
+                </div>
                 <div class="nav-second-left-l">Home</div>
                 <div class="nav-second-left-l">Shop</div>
-                        <select class="nav-second-left-l gender-select">
-                            <option selected>  Women</option>
-                            <option> Man</option>
-                            <option> Child</option>
-                        </select>
+                <div class="nav-second-left-l">Women ↓</div>
                 <div class="nav-second-left-l">Men</div>
                 <div class="nav-second-left-l">
                     <p class="nav-second-left-l sports">Sports</p>
@@ -50,15 +49,17 @@
                 </div>
             </div>
             <div class="nav-second-right">
-                <div class="nav-second-right-r">
-
+                <div class="nav-second-right-r he">
+                    <p class="nav-second-right heart">🤍</p>
+                    <div class="nav-second-right-r countheart">0</div>
+                </div>
+                <div class="nav-second-right-r sh">
+                    <p class="nav-second-right shopcart">🛒</p>
+                    <div class="nav-second-right-r countshop">0</div>
                 </div>
                 <div class="nav-second-right-r">
-                    
-                </div>
-                <div class="nav-second-right-r">
-                    <p>Total</p>
-                    <p>$0.00</p>
+                    <p class="nav-second-right-r tota">Total</p>
+                    <p class="nav-second-right-r totaprice">$0.00</p>
                 </div>
             </div>
         </nav>
@@ -69,11 +70,105 @@
                 <p id="nav-third-left-ptot">Total 1059 Products</p>
             </div>
             <div class="nav-third-right">
-                <span></span>
-                <input type="text" placeholder="Search for products">
-                <button>Search</button>
+                <span> 🔍 </span>
+                <input type="text" placeholder="Search for products" id="nav-third-right-inp">
+                <button id="nav-third-right-searchbut">Search</button>
             </div>
         </nav>
+        <div class="leftlistandslider">
+            <ul class="leftlistandslider-ul">
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p>✨</p>
+                        <p>Beauty</p>
+                    </div>
+                    <p> > </p>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p>⚡</p>
+                        <p>Electronic</p>
+                    </div>
+                    <p> > </p>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p> 👗</p>
+                        <p>Women's Fashion</p>
+                    </div>
+                    <p> > </p>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p> 👔</p>
+                        <p>Men's Fashion</p>
+                    </div>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p> 👚 </p>
+                        <p>Girl's Fashion</p>
+                    </div>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p> 👕</p>
+                        <p>Boy's Fashion</p>
+                    </div>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p>🌿</p>
+                        <p>Health & Household</p>
+                    </div>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p> 🍴</p>
+                        <p>Home & Kitchen</p>
+                    </div>
+                    <p> > </p>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p>🐶</p>
+                        <p>Pet Supplies</p>
+                    </div>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p>⚽</p>
+                        <p>Sports</p>
+                    </div>
+                </li>
+                <li class="leftlistandslider-li">
+                    <div class="leftlistandslider-li-div">
+                        <p>🏆</p>
+                        <p>Best Seller</p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="slider">
+                <div class="slidercontent js-slider">
+                    <div class="slidercontent-checkbuttons">
+                        <input type="radio" name="check">
+                        <input type="radio" name="check">
+                        <input type="radio" name="check">
+                        <input type="radio" name="check">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brands">
+            <img src="assets/brands/asus.png" class="brands-img">
+            <img src="assets/brands/dng.png" class="brands-img">
+            <img src="assets/brands/hurley.png" class="brands-img">
+            <img src="assets/brands/oppo.png" class="brands-img">
+            <img src="assets/brands/samsung.png" class="brands-img">
+            <img src="assets/brands/zara.png" class="brands-img">
+        </div>
     </div>
+    <script type="module" src="scripts/slider.js"></script>
 </body>
 </html>
