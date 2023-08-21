@@ -254,7 +254,7 @@ h1{
     color: white;
     border: none;
     margin-left: 70px;
-    
+background-repeat: n;
 }
 
 .brands{
@@ -272,4 +272,93 @@ h1{
     position: relative;
     left: 45%;
     top: 90%;
+}
+
+.trendingproducts{
+    padding: 0 17%;
+}
+
+.trendingproducts-circle{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    border: 1px solid black;
+}
+
+.trendingproducts-title-p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.trendingproducts-products{
+    display: flex;  
+    padding-top: 30px;
+}
+
+.trendingproducts-products-specoffer{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    height: 600px;
+    gap:10px;
+    padding-top: 20px;
+    
+}
+
+trendingproducts-products-specoffer-off{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.trendingproducts-products-specoffer-time{
+    gap: 10px;
+    display: flex;
+}
+
+.time-div{
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.trendingproducts-products-specoffer-img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.trendingproducts-products-specoffer-heart{
+    position: relative;
+    bottom: 350px;
+    left: 276px;
+    background-color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.trendingproducts-products-specoffer-proc{
+    position: relative;
+    left: 272px;
+    bottom:55px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
 }

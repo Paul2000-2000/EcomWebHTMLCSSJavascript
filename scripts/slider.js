@@ -15,8 +15,9 @@ sliderprod.forEach(product => {
         <p class="slidercontent-p-underh1">${product.punder}</p>
         <button class="slidercontent-button">${product.button}</button>
     `;
-    productElement.style.background = `url('${product.url}')`;
-    productElement.style.backgroundSize = 'cover'; // Set background size to cover
+    productElement.style.background = `url('${product.url}') center / cover`;
+
+   
     
     // Initially hide all products
     productElement.style.display = 'none';
