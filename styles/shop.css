@@ -5,6 +5,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.content{
+    width: 100%;
+}
+
 .nav-first ,.nav-second{
     display: flex;
     justify-content: space-between;
@@ -274,11 +278,12 @@ background-repeat: n;
     top: 90%;
 }
 
-.trendingproducts{
+.trendingproducts ,.featuredproducts{
     padding: 0 17%;
+    margin-bottom: 40px;
 }
 
-.trendingproducts-circle{
+.trendingproducts-circle ,.featuredproducts-circle {
     width: 25px;
     height: 25px;
     background-color: red;
@@ -288,7 +293,9 @@ background-repeat: n;
     border: 1px solid black;
 }
 
-.trendingproducts-title-p{
+
+
+.trendingproducts-title-p ,.featuredproducts-title-p{
     font-weight: bold;
     font-size: 25px;
     margin-left: 30px;
@@ -298,16 +305,17 @@ background-repeat: n;
 .trendingproducts-products{
     display: flex;  
     padding-top: 30px;
+    gap:20px;
 }
 
 .trendingproducts-products-specoffer{
-    width: 35%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: solid 1px black;
     height: 600px;
-    gap:10px;
+    
     padding-top: 20px;
     
 }
@@ -333,15 +341,15 @@ trendingproducts-products-specoffer-off{
 
 .trendingproducts-products-specoffer-img{
     width: 300px;
-    height: 350px;
+    height: 330px;
     object-fit: cover;
-    margin-top: 5px;
+    margin-top: 35px;
 }
 
 .trendingproducts-products-specoffer-heart{
     position: relative;
-    bottom: 350px;
-    left: 276px;
+    bottom: 330px;
+    left: 278px;
     background-color: white;
     width: 22px;
     height: 22px;
@@ -361,4 +369,176 @@ trendingproducts-products-specoffer-off{
     font-size: 10px;
     text-align: center;
     padding-top: 5px;
+}
+
+
+
+.trendingproducts-products-specoffer-desc{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 15px;
+}
+
+
+.trendingproducts-products-specoffer-price{
+    
+    color: red;
+    margin-bottom: 10px;
+}
+
+.trendingproducts-products-all{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    height: 350px;
+}
+
+.trendingproducts-products-all-product{
+    display: flex;
+    width: 48%;
+}
+
+trendingproducts-products-all-product-desc{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trendingproducts-products-all-product-img{
+    width: 120px;
+    height: 135px;
+    object-fit: cover;
+}
+
+.trendingproducts-products-all-product-heart{
+    width: 25px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    right: 18px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.trendingproducts-products-all-product-proc{
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    position: relative;
+    right: 38px;
+    top: 114px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 10px;
+}
+
+.trendingproducts-products-specoffer-time-stars{
+    margin-bottom: 10px;
+}
+
+.trendingproducts-products-all-product-desc-firstp{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.trendingproducts-products-specoffer-price{
+    color:red;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.trendingproducts-products-all-product-desc-sold {
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.featuredproducts-products-product{
+    height: 550px;
+    width: 287.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.featuredproducts-products-product-desc{
+    font-size: 18px;
+    font-weight:600;
+    margin-bottom: 3px;
+}
+
+.featuredproducts-products-product-img{
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+}
+
+.featuredproducts-products{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.featuredproducts-products-product-stars{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.featuredproducts-products-product-price{
+    
+    color: red;
+}
+
+.featuredproducts-products-product-heart{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 395px;
+    border-radius: 50%;
+    left: 280px;
+    text-align: center;
+}
+
+.featuredproducts-products-product-proc{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 52px;
+    border-radius: 50%;
+    left: 280px;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 3px;
+    background-color: grey;
+    color: white;
+}
+
+.afterfeaturedproductsbanners{
+    
+    height: 400px;
+    padding: 0 17%;
+    display: flex;
+
+}
+
+.afterfeaturedproductsbanners-banner1,
+.afterfeaturedproductsbanners-banner2{
+    width: 45%;
+}
+
+
+.afterfeaturedproductsbanners-banner1 {
+    background-image: url("assets/banner/banner1.jpg");
 }
