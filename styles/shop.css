@@ -527,18 +527,226 @@ trendingproducts-products-all-product-desc{
 
 .afterfeaturedproductsbanners{
     
-    height: 400px;
-    padding: 0 17%;
+    height: 250px;
+    margin: 0 17%;
     display: flex;
+    gap: 35px;
 
 }
 
 .afterfeaturedproductsbanners-banner1,
 .afterfeaturedproductsbanners-banner2{
-    width: 45%;
+    width: 48%;
+    
+    
 }
 
-
 .afterfeaturedproductsbanners-banner1 {
-    background-image: url("assets/banner/banner1.jpg");
+    background-image: url("../assets/banner/banner1merge.jpg");
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the images */
+    background-size: cover; /* Adjust image size to cover the element */
+    padding-left: 50px;
+    padding-top: 30px;
+    
+}
+.afterfeaturedproductsbanners-banner2{
+    background: url("../assets/banner/banner2.jpg");
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the images */
+    background-size: cover; /* Adjust image size to cover the element */
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.afterfeaturedproductsbanners-banner-p1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.afterfeaturedproductsbanners-banner-p2{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.afterfeaturedproductsbanners-banner-p3{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.afterfeaturedproductsbanners-banner-buttonb{
+    background-color: red;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+}
+
+.procatitems{
+    padding: 0 17%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.procatitems-item{
+    border: solid 1px black;
+    align-items: center;
+    display: flex;
+    width: 390px;
+    height:300px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.procatitems-item-img{
+    width: 100px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.procatitems-item-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.procatitems-item-desc-title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.procatitems-item-desc-p{
+    color: grey;
+    font-size: 14px;
+}
+
+.procatitems-item-desc-view{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.joinnews{
+    margin-top: 50px;
+    width: 100%;
+    background-color: purple;
+    padding: 0 17%;
+    display: flex;
+    height: 175px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joinnews-left-pjoin{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0.1ch;
+}
+
+.joinnews-left-txt{
+    color: black;
+    margin-top: 5px;
+}
+
+.joinnews-left-txt-red{
+    color: red;
+}
+
+.joinnews-right-content{
+    display: flex;
+    width: 550px;
+
+    height: 50px;
+}
+
+.joinnews-right-content-symbol{
+    position: relative;
+    left:50px;
+    top: 15px;
+}
+
+#joinnews-right-content-input{
+    width: 80%;
+    padding-left: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.joinnews-right-content-button{
+    width: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+.about{
+    padding: 50px 17%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DCDCDC;
+}
+
+.about-item-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.about-item-p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    padding:50px 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-rec-cirlce{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    right: 13px;
+}
+
+.contact-rec-img{
+    width: 100px ;
+    height: 40px;
+    object-fit: cover;
+}
+
+.contact-pub{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-pub-ret{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.contact-copy{
+    font-size: 12px;
+    color: grey;
 }
